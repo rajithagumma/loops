@@ -1,0 +1,9 @@
+n=int(input("enter number of notes:"))
+if n>=2000:
+    n_2000=n//2000
+    n=n-2000*n_2000
+    print(2000,"=",n_2000)
+if n>=500:
+    n_500=n//500
+    n=n-500*n_500
+    print(500,"=",n_500)
